@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #usage:
-# curl -O https://raw.githubusercontent.com/kiperos/debi9/master/debi9.sh && chmod +x flaw.sh && ./flaw.sh
+# curl -O https://raw.githubusercontent.com/kiperos/debi9/master/debi9.sh && chmod +x debi9.sh && ./debi9.sh
 
 ##############################################################################################################
 spinner ()
@@ -33,7 +33,7 @@ install_dep(){
    apt install sudo
    sudo apt -y update
    sudo apt -y clean all
-   sudo apt -y install 7zip-full
+   sudo apt -y install p7zip-full
    sudo apt -y install pwgen
    sudo apt -y install tmux
    say_done
