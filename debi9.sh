@@ -33,7 +33,7 @@ install_dep(){
    apt install sudo
    sudo apt -y update
    sudo apt -y clean all
-   sudo apt -y install p7zip p7zip-plugins
+   sudo apt -y install 7zip-full
    sudo apt -y install pwgen
    sudo apt -y install tmux
    say_done
